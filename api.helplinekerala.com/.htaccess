@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^api\.helplinekerala\.com$
+RewriteRule ^/?$ "http\:\/\/https\:\/\/" [R=301,L]
